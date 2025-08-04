@@ -10,8 +10,7 @@ from typing import Optional, Dict, Any
 import os
 
 mcp = FastMCP(
-    "AIPPT_MCP",
-    description="讯飞智能PPT生成服务MCP服务器，提供PPT生成、大纲生成、模板管理等功能。所有工具均为原子化，参数和依赖关系详见各工具描述。所有API鉴权信息通过环境变量AIPPT_APP_ID和AIPPT_API_SECRET读取。"
+    "AIPPT_MCP"
 )
 
 # 读取环境变量

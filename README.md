@@ -142,3 +142,13 @@ uvx aippt-mcp
 ## 反馈
 使用中遇到问题，欢迎通过`issue`或[讯飞开放平台客服](https://www.xfyun.cn/support)反馈。我们鼓励提交`PR`贡献代码，感谢您的支持！
 
+```json
+"aippt-mcp": {
+  "command": "D:\\Users\\Admin\\PycharmProjects\\aippt-mcp\\.venv\\Scripts\\python.exe",
+  "args": ["-m", "aippt_mcp.server"],
+  "env": {
+    "AIPPT_APP_ID": "9f0e687e",
+    "AIPPT_API_SECRET": "YzhmOGUyYWRlYmZhMmJkNGQyZjkwMTVm"
+  }
+}
+```
